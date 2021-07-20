@@ -4,7 +4,7 @@
   "description": "stylelint config for usual css development",
   "keywords": [
     "stylelint",
-		"stylelint-config"
+    "stylelint-config"
   ],
   "main": "index.js",
   "repository": {
@@ -21,6 +21,6 @@
     "stylelint-config-standard": "^22.0.0"
   },
   "peerDependencies": {
-		"stylelint": "^13.7.0"
-	}
+    "stylelint": "^13.7.0"
+  }
 }
