@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "@kapouer/stylelint-config",
   "version": "1.0.0",
   "description": "stylelint config for usual css development",
   "keywords": [
