@@ -11,7 +11,7 @@ npm install --save-dev @kapouer/stylelint-config
 In package.json:
 
 ```json
-"stylelintConfig": {
+"stylelint": {
 	"extends": "@kapouer/stylelint-config"
 }
 ```
