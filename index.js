@@ -17,7 +17,6 @@ module.exports = {
 		"color-hex-length": null,
 		"color-hex-case": null,
 		"selector-list-comma-newline-after": null,
-		"selector-pseudo-element-colon-notation": null,
 		"max-empty-lines": null,
 		"comment-whitespace-inside": null,
 		"no-descending-specificity": null,
