@@ -29,5 +29,10 @@ module.exports = {
 		"selector-type-no-unknown": [
 			true, { "ignore": ["custom-elements"] }
 		]
-	}
+	},
+	ignoreFiles: [ // this is probably ignored
+		"node_modules/",
+		"**",
+		"!**/*.{css,scss,sass}"
+	]
 };
