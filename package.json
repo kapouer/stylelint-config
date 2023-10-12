@@ -1,6 +1,6 @@
 {
   "name": "@kapouer/stylelint-config",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "stylelint config for usual css development",
   "keywords": [
     "stylelint",
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/kapouer/stylelint-config#readme",
   "dependencies": {
-    "stylelint-config-standard": "^30.0.1"
+    "stylelint-config-standard": "^34.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^15.2.0"
+    "stylelint": "^15.10.3"
+  },
+  "stylelint": {
+    "extends": "@kapouer/stylelint-config"
   }
 }
