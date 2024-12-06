@@ -1,12 +1,13 @@
 {
   "name": "@kapouer/stylelint-config",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "stylelint config for usual css development",
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kapouer/stylelint-config.git"
@@ -18,10 +19,11 @@
   },
   "homepage": "https://github.com/kapouer/stylelint-config#readme",
   "dependencies": {
-    "stylelint-config-standard": "^34.0.0"
+    "@stylistic/stylelint-plugin": "^3.1.1",
+    "stylelint-config-standard": "^36.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^15.10.3"
+    "stylelint": "^16.11.0"
   },
   "stylelint": {
     "extends": "@kapouer/stylelint-config"
